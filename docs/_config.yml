@@ -11,5 +11,5 @@ url: https://github.com/Makerspace-Amiens
 # Paramètres optionnels de "Just the Docs"
 just_the_docs:
   navigation_depth: 5
-  search_enabled: true
+  search_enabled: false
   search_indexing: true
