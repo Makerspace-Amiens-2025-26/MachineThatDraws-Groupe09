@@ -1,36 +1,37 @@
 <style>
-  /* 1. GLOBAL : On applique le gris plus foncé partout (Corps de page + Menu + Contenu) */
-  body, .side-bar, .main-content {
-    background-color: #e0e0e0 !important; /* Le gris plus foncé */
+  /* 1. SUPPRESSION DE LA BARRE DE RECHERCHE */
+  .search {
+    display: none !important; /* Cette ligne fait disparaître la recherche */
   }
 
-  /* 2. Titre du site en ROUGE */
+  /* 2. CÔTÉ GAUCHE (Menu) -> PLUS FONCÉ */
+  .side-bar {
+    background-color: #c0c0c0 !important; /* Gris foncé */
+    border-right: 1px solid #999; /* Bordure pour séparer */
+  }
+
+  /* 3. CÔTÉ DROIT (Contenu) -> GRIS CLAIR */
+  /* On colore la zone principale */
+  .main-content {
+    background-color: #e0e0e0 !important; /* Gris plus clair */
+  }
+  /* On colore aussi le fond de page global pour éviter les trous blancs */
+  body {
+    background-color: #e0e0e0 !important;
+  }
+
+  /* 4. TEXTES EN ROUGE (Toujours pareil) */
   .site-title {
     color: #ff0000 !important;
   }
 
-  /* 3. Liens du menu en ROUGE */
   .nav-list .nav-list-item .nav-list-link {
     color: #ff0000 !important;
   }
 
-  /* 4. Liens au survol en ROUGE FONCÉ */
   .nav-list .nav-list-item .nav-list-link:hover,
   .nav-list .nav-list-item .nav-list-link.active {
-    color: #cc0000 !important;
+    color: #cc0000 !important; /* Rouge foncé au survol */
     text-decoration: none;
-  }
-  
-  /* 5. (Optionnel) Barre de recherche */
-  /* Je la laisse en blanc pour qu'elle ressorte bien sur le fond gris */
-  .search-input {
-    background-color: #ffffff !important;
-    border-color: #ff0000 !important;
-  }
-  
-  /* 6. (Optionnel) Ajustement des bordures */
-  /* Comme tout est gris, on peut vouloir enlever la ligne de séparation ou la foncer */
-  .side-bar {
-    border-right: 1px solid #bfbfbf; /* Ligne de séparation un peu plus visible */
   }
 </style>
