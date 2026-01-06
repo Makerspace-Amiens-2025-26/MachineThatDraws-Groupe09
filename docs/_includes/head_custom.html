@@ -1,17 +1,19 @@
 <style>
-  /* 1. RESET GLOBAL : Force la couleur de fond générale */
+  /* --- 1. GESTION DES FONDS GRIS --- */
+  
+  /* Reset global pour le fond de page (Côté droit) */
   html, body {
     background-color: #e0e0e0 !important;
   }
 
-  /* 2. CÔTÉ GAUCHE (Menu) -> GRIS FONCÉ (#c0c0c0) */
+  /* Côté Gauche (Menu) -> GRIS FONCÉ (#c0c0c0) */
   .side-bar {
     background-color: #c0c0c0 !important;
     border-right: 1px solid #a0a0a0;
   }
 
-  /* 3. CÔTÉ DROIT (Contenu + En-tête) -> GRIS CLAIR (#e0e0e0) */
-  /* On liste toutes les zones possibles pour être sûr de ne rien oublier */
+  /* Côté Droit (Contenu + En-tête) -> GRIS CLAIR (#e0e0e0) */
+  /* On force la couleur sur tous les blocs pour effacer les zones blanches */
   .main, 
   .main-header, 
   .main-content, 
@@ -20,36 +22,38 @@
     background-color: #e0e0e0 !important;
   }
 
-  /* Supprime la ligne de séparation en bas de l'en-tête pour unifier le tout */
+  /* On supprime la ligne sous l'en-tête pour unifier le haut */
   .main-header {
     border-bottom: none !important;
   }
 
-  /* 4. RECHERCHE : On la cache complètement */
+  /* --- 2. BARRE DE RECHERCHE --- */
+  /* On la cache complètement */
   .search, .search-input {
     display: none !important;
   }
 
-  /* 5. TEXTES EN ROUGE */
-  /* Titre du site en haut à gauche */
+  /* --- 3. COULEURS DU TEXTE (Nouveau Rouge) --- */
+  
+  /* Titre du site (Rouge foncé #cc0000) */
   .site-title {
-    color: #ff0000 !important;
+    color: #cc0000 !important;
   }
   
-  /* Liens du menu */
+  /* Liens du menu (Rouge foncé #cc0000) */
   .nav-list .nav-list-item .nav-list-link {
-    color: #ff0000 !important;
+    color: #cc0000 !important;
   }
 
-  /* Liens au survol ou actif */
+  /* Liens au survol ou actif (Rouge sang très foncé #990000) */
   .nav-list .nav-list-item .nav-list-link:hover,
   .nav-list .nav-list-item .nav-list-link.active {
-    color: #cc0000 !important;
+    color: #990000 !important; 
     text-decoration: none;
   }
 
-  /* (Bonus) Si tu veux aussi les boutons "Edit on GitHub" en rouge ou transparents */
+  /* Boutons divers */
   .btn {
-    color: #ff0000 !important;
+    color: #cc0000 !important;
   }
 </style>
