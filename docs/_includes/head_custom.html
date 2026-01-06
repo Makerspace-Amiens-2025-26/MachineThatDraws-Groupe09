@@ -1,8 +1,7 @@
 <style>
-  /* 1. Fond du menu (Sidebar) en BLANC GRISÉ */
-  .side-bar {
-    background-color: #f4f4f4 !important; /* C'est ce code qui fait le gris clair */
-    border-right: 1px solid #d0d0d0; /* Bordure un peu plus foncée pour le contraste */
+  /* 1. GLOBAL : On applique le gris plus foncé partout (Corps de page + Menu + Contenu) */
+  body, .side-bar, .main-content {
+    background-color: #e0e0e0 !important; /* Le gris plus foncé */
   }
 
   /* 2. Titre du site en ROUGE */
@@ -19,12 +18,19 @@
   .nav-list .nav-list-item .nav-list-link:hover,
   .nav-list .nav-list-item .nav-list-link.active {
     color: #cc0000 !important;
-    text-decoration: none; /* Enlève le soulignement si tu préfères */
+    text-decoration: none;
   }
   
   /* 5. (Optionnel) Barre de recherche */
+  /* Je la laisse en blanc pour qu'elle ressorte bien sur le fond gris */
   .search-input {
-    background-color: #ffffff !important; /* On garde l'intérieur de la recherche blanc */
+    background-color: #ffffff !important;
     border-color: #ff0000 !important;
+  }
+  
+  /* 6. (Optionnel) Ajustement des bordures */
+  /* Comme tout est gris, on peut vouloir enlever la ligne de séparation ou la foncer */
+  .side-bar {
+    border-right: 1px solid #bfbfbf; /* Ligne de séparation un peu plus visible */
   }
 </style>
