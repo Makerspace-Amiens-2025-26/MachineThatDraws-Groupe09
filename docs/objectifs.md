@@ -6,7 +6,7 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+Lors de notre deuxième année de cycle ingénieur (FISE), nous nous sommes investis dans la création de la "MachineThatDraw". L'objectif de ce projet était de concevoir une machine capable de dessiner de manière autonome n'importe quelle image que nous lui transmettons. Pour mettre notre travail à l'épreuve et valider la finesse du tracé, nous avons décidé de relever un défi technique en lui faisant reproduire un portrait de Michael Jackson.
 
 ## Contexte du Projet
 
@@ -14,7 +14,7 @@ Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, eu
 
 ## Objectifs du Projet
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+L'objectif de ce projet 
 
 # Existant
 
