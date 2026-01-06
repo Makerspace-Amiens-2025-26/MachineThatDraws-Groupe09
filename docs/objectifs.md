@@ -8,6 +8,8 @@ title: Objectifs du projet
 
 Lors de notre deuxième année de cycle ingénieur (FISE), nous nous sommes investis dans la création de la "MachineThatDraw". L'objectif de ce projet était de concevoir une machine capable de dessiner de manière autonome n'importe quelle image que nous lui transmettons. Pour mettre notre travail à l'épreuve et valider la finesse du tracé, nous avons décidé de relever un défi technique en lui faisant reproduire un portrait de Michael Jackson.
 
+![Image projet](images/MJ.jpg)
+
 ## Contexte du Projet
 
 Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
