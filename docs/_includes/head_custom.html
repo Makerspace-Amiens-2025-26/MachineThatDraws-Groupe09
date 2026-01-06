@@ -1,26 +1,28 @@
 <style>
-  /* 1. SUPPRESSION DE LA BARRE DE RECHERCHE */
+  /* 1. CACHER L'INPUT DE RECHERCHE */
+  /* Le champ de texte disparait, mais la zone reste */
   .search {
-    display: none !important; /* Cette ligne fait disparaître la recherche */
+    display: none !important;
   }
 
-  /* 2. CÔTÉ GAUCHE (Menu) -> PLUS FONCÉ */
+  /* 2. CÔTÉ GAUCHE (Menu) -> GRIS FONCÉ */
   .side-bar {
     background-color: #c0c0c0 !important; /* Gris foncé */
-    border-right: 1px solid #999; /* Bordure pour séparer */
+    border-right: 1px solid #999;
   }
 
-  /* 3. CÔTÉ DROIT (Contenu) -> GRIS CLAIR */
-  /* On colore la zone principale */
-  .main-content {
+  /* 3. CÔTÉ DROIT + EN-TÊTE -> GRIS CLAIR UNIFORME */
+  /* On applique la même couleur au fond global, au contenu ET à l'en-tête */
+  body, .main-content, .site-header {
     background-color: #e0e0e0 !important; /* Gris plus clair */
   }
-  /* On colore aussi le fond de page global pour éviter les trous blancs */
-  body {
-    background-color: #e0e0e0 !important;
+
+  /* On enlève la ligne sous l'en-tête pour qu'on ne voit plus la séparation */
+  .site-header {
+    border-bottom: none !important;
   }
 
-  /* 4. TEXTES EN ROUGE (Toujours pareil) */
+  /* 4. TEXTES DU MENU EN ROUGE */
   .site-title {
     color: #ff0000 !important;
   }
