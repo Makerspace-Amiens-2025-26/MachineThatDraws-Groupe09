@@ -6,9 +6,10 @@ title: Objectifs du projet
 
 # Introduction
 
-Lors de notre deuxième année de cycle ingénieur (FISE), nous nous sommes investis dans la création de la "MachineThatDraw". L'objectif de ce projet était de concevoir une machine capable de dessiner de manière autonome n'importe quelle image que nous lui transmettons. Pour mettre notre travail à l'épreuve et valider la finesse du tracé, nous avons décidé de relever un défi technique en lui faisant reproduire un portrait de Michael Jackson.
+Lors de notre deuxième année de cycle ingénieur (FISE), nous nous sommes investis dans la création de la "MachineThatDraw". L'objectif de ce projet était de concevoir une machine capable de dessiner de manière autonome n'importe quelle image que nous lui transmettons. Pour mettre notre travail à l'épreuve et valider la finesse du tracé, nous avons décidé de reproduire un portrait de Michael Jackson.
 
-![Image projet](images/MJ.jpg)
+![Image projet]()
+
 
 ## Contexte du Projet
 
@@ -16,7 +17,7 @@ Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, eu
 
 ## Objectifs du Projet
 
-L'objectif de ce projet 
+L'objectif est simple, on veut que la machine soit capable de reproduire le dessin qu'on a choisi. C'est un travail complet, puisqu'il va falloir à la fois assembler la mécanique et développer tout le programme pour réussir.
 
 # Existant
 
@@ -24,4 +25,10 @@ Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel p
 
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+Dans ce premier semestre, notre machine doit pouvoir bouger un axe (x ou y).
+
+Dans le second semestre,notre machine devra donc:
+* pouvoir deplacer les 2 axes (x,y)
+* deplacer le stylo avec un systeme qui lève et qui baisse le stylo
+* dessiner un dessin vectoriel 
+* tout avec un materiel limité qui se trouve dans.....
