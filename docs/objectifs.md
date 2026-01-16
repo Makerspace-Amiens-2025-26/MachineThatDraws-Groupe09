@@ -11,17 +11,11 @@ Lors de notre deuxième année de cycle ingénieur (FISE), nous nous sommes inve
 ![Image projet]()
 
 
-## Contexte du Projet
-
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
-
 ## Objectifs du Projet
 
 L'objectif est simple, on veut que la machine soit capable de reproduire le dessin qu'on a choisi. C'est un travail complet, puisqu'il va falloir à la fois assembler la mécanique et développer tout le programme pour réussir.
 
-# Existant
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
 
 # Cahier des Charges
 
