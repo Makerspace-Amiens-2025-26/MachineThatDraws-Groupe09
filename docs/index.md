@@ -5,7 +5,7 @@ title: Groupe 9
 permalink: /
 ---
 
-# Bienvenue sur notre documentation
+# Documentation MachineThatDraws groupe 9
 
 Bienvenue dans la documentation du projet Machine That Draw du groupe 9. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
@@ -14,8 +14,7 @@ Bienvenue dans la documentation du projet Machine That Draw du groupe 9. Ce site
 
 <iframe height="600" width="100%" src="https://modelembedder.net/embed?did=2860ed3d58f1b518e6857770&wvm=v&wvmid=6280fca954e7770df59e5a2f&eid=0cab16137cd459ee83ebe56e&elementType=ASSEMBLY" frameborder="0"></iframe>
 
-{: .warning }
->Pour intégrer la visualisation de votre projet Onshape, utilisez le site https://modelembedder.net . Activez le partage par lien via l'outil de partage de Onshape. n'oubliez pas d'activer l'option "export". Puis completez l'iframe ci-dessus avec le lien généré par le site https://modelembedder.net. Vous pouvez mettre à jour également le bouton avec le lien de partage de votre modèle.
+
 
 
 ## À propos du Projet
