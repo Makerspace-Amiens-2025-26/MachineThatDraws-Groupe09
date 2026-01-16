@@ -1,59 +1,64 @@
 <style>
-  /* --- 1. GESTION DES FONDS GRIS --- */
+  /* --- 1. L'AMBIANCE GÉNÉRALE (Mode Sombre) --- */
   
-  /* Reset global pour le fond de page (Côté droit) */
-  html, body {
-    background-color: #e0e0e0 !important;
+  /* On applique un bleu nuit très profond (presque noir) sur tout le site */
+  html, body, .main, .main-header, .main-content, .main-content-wrap, .site-header {
+    background-color: #0f172a !important; /* Dark Slate Blue */
+    color: #e2e8f0 !important; /* Texte en gris très clair (presque blanc) pour la lisibilité */
   }
 
-  /* Côté Gauche (Menu) -> GRIS FONCÉ (#c0c0c0) */
+  /* --- 2. LE MENU (Sidebar) --- */
+  
+  /* On le fait encore plus sombre pour créer de la profondeur */
   .side-bar {
-    background-color: #c0c0c0 !important;
-    border-right: 1px solid #a0a0a0;
+    background-color: #020617 !important; /* Presque noir */
+    border-right: 1px solid #1e293b; /* Une ligne de séparation subtile bleu foncé */
   }
 
-  /* Côté Droit (Contenu + En-tête) -> GRIS CLAIR (#e0e0e0) */
-  /* On force la couleur sur tous les blocs pour effacer les zones blanches */
-  .main, 
-  .main-header, 
-  .main-content, 
-  .main-content-wrap,
-  .site-header {
-    background-color: #e0e0e0 !important;
-  }
-
-  /* On supprime la ligne sous l'en-tête pour unifier le haut */
-  .main-header {
-    border-bottom: none !important;
-  }
-
-  /* --- 2. BARRE DE RECHERCHE --- */
-  /* On la cache complètement */
-  .search, .search-input {
-    display: none !important;
-  }
-
-  /* --- 3. COULEURS DU TEXTE (Nouveau Rouge) --- */
+  /* --- 3. LES ACCENTS (La touche "Surprise") --- */
   
-  /* Titre du site (Rouge foncé #cc0000) */
+  /* Titre du site en Cyan Électrique (Néon) */
   .site-title {
-    color: #cc0000 !important;
-  }
-  
-  /* Liens du menu (Rouge foncé #cc0000) */
-  .nav-list .nav-list-item .nav-list-link {
-    color: #cc0000 !important;
+    color: #38bdf8 !important; 
+    font-weight: bold;
+    text-transform: uppercase; /* On met le titre en majuscules pour le style */
+    letter-spacing: 1px; /* On espace un peu les lettres */
   }
 
-  /* Liens au survol ou actif (Rouge sang très foncé #990000) */
+  /* Les liens du menu : Blanc cassé par défaut */
+  .nav-list .nav-list-item .nav-list-link {
+    color: #94a3b8 !important; /* Gris moyen */
+  }
+
+  /* Quand on passe la souris ou qu'on est sur la page active : BOOM le Cyan revient */
   .nav-list .nav-list-item .nav-list-link:hover,
   .nav-list .nav-list-item .nav-list-link.active {
-    color: #990000 !important; 
-    text-decoration: none;
+    color: #38bdf8 !important;
+    border-left: 2px solid #38bdf8; /* Petite barre néon à gauche du lien */
+    padding-left: 10px; /* Petit décalage pour l'animation visuelle */
+    background: transparent !important;
   }
 
-  /* Boutons divers */
-  .btn {
-    color: #cc0000 !important;
+  /* --- 4. TYPOGRAPHIE & CONTENU --- */
+  
+  /* Tous les titres (H1, H2...) en blanc pur pour ressortir */
+  h1, h2, h3, h4, h5, h6 {
+    color: #f8fafc !important;
+  }
+  
+  /* Les liens dans le texte (pas le menu) */
+  .main-content a {
+    color: #38bdf8 !important;
+    text-decoration: underline;
+  }
+
+  /* On cache la recherche et la ligne du header comme demandé avant */
+  .search, .search-input { display: none !important; }
+  .main-header, .site-header { border-bottom: none !important; }
+  
+  /* (Bonus) Amélioration des tableaux et blocs de code pour le mode sombre */
+  code {
+    background-color: #1e293b !important; /* Fond des petits codes en bleu gris */
+    color: #38bdf8 !important;
   }
 </style>
