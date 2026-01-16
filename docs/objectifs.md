@@ -25,4 +25,5 @@ Dans le second semestre,notre machine devra donc:
 * pouvoir deplacer les 2 axes (x,y)
 * deplacer le stylo avec un systeme qui lève et qui baisse le stylo
 * dessiner un dessin vectoriel 
-* tout avec un materiel limité qui se trouve dans.....
+* tout avec un materiel limité qui se trouve dans[Préparation des Matériaux
+](/etapes/etape_1)
