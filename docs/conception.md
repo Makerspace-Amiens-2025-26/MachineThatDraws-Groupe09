@@ -20,6 +20,11 @@ Voici le second support de poulie. Il est différent du premier car il sert à g
 
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=b0276e37f60861a56ffae9a9&eid=ed7cfaec5d0acaacb9669faa&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
+Voici la partie basse du support poulie. C'est ici que l'on vient insérer les bushings (les bagues de glissement). Une fois en place, ils permettent à la barre de traverser la pièce et assurent que le support puisse coulisser proprement le long de l'axe sans coincer.
+
+<iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4daecf5db9d4894318d9cbdc&eid=65323fbc4913439752731d74&elementType=PARTSTUDIO" frameborder="0"></iframe>
+
+
 Voici la pièce maîtresse pour le tracé : le porte-stylo. Son rôle est simple mais crucial : maintenir fermement le stylo en position verticale. Elle a été conçue pour empêcher le crayon de trembler ou de glisser pendant que la machine dessine.
 
 <iframe height="300" width="100%" src="https://cad.onshape.com/documents/f36f8aaf3489bbdbfa2a3f64/v/b0276e37f60861a56ffae9a9/e/6b6bdf7f7fd5b89646a3474e?showReturnToWorkspaceLink=true" frameborder="0"></iframe>
