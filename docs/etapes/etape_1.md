@@ -32,16 +32,7 @@ Méchanique:
 - Arbre de guidage linéaire 6
 - Bushing PTFE
   
-## Procédure de Préparation
 
-1. **Nettoyage** : Nettoyez tous les matériaux pour enlever la poussière et les débris.
-2. **Découpe** : Découpez les matériaux A et B selon les dimensions spécifiées.
-3. **Prétraitement** : Appliquez un traitement de surface si nécessaire.
-
-## Conseils de Sécurité
-
-- Portez toujours l'équipement de protection individuelle.
-- Suivez les instructions de sécurité des outils utilisés.
 
 ---
 
