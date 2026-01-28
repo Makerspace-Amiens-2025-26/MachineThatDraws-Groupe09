@@ -21,23 +21,6 @@ Bienvenue dans la documentation du projet Machine That Draw du groupe 9. Ce site
 
 Le but de notre projet est de créer une machine qui dessine un dessin tout seul. Nous avons choisie une machine Cartesienne, elles utilisent un système de coordonnées sur axes perpendiculaires pour allier simplicité de construction et haute précision. 
 
-## Poster
 
-Ici vous publierez le poster de votre projet.
-
-![Poster projet](images/poster.jpg)
-
-## Vidéo
-
-Ici vous publierez la vidéo de votre projet. 
-- 1min30 au format vertical
-- Présentation du projet 
-- Des explication du fonctionnement du projet
-- Des vues du projet / Prototype / Application etc... 
-- Des plans du fonctionnement (même basique ou des éléments séparés)
-- Une conclusion
-- Si en stockage local : <50mo
-
-<video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
 
 ---
