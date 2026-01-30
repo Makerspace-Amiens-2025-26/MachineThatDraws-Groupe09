@@ -23,6 +23,6 @@ Le but de notre projet est de créer une machine qui dessine un dessin tout seul
 
 ## Vidéo explicative
 
-![Image projet](images/videos1.mp4)
+![video projet](images/videos1.mp4)
 
 ---
