@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projet composants programmables
+title: Projet composants
 nav_order: 7
 has_children: true
 ---
