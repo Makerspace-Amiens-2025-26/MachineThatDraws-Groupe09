@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assemblage
+title: Kikad
 parent: Projet composants
 nav_order: 1
 ---
