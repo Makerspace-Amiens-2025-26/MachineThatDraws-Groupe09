@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Introduction
-parent: Projet Composants Programmables
-nav_order: 1
+title: Projet composants programmables
+nav_order: 6
+has_children: true
 ---
-
 test
