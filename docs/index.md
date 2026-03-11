@@ -23,7 +23,7 @@ Le but de notre projet est de créer une machine qui dessine un dessin tout seul
 
 ## Vidéo explicative
 
-<video width="48" height="64" controls>
+<video width="480" height="640" controls>
         <source src="images/videos1.mp4" type="video/mp4" />
 </video>
 
