@@ -23,6 +23,6 @@ Le but de notre projet est de créer une machine qui dessine un dessin tout seul
 
 ## Vidéo explicative
 
-![video projet](images/videos1.mp4)
+![video projet](https://github.com/Makerspace-Amiens-2025-26/MachineThatDraws-Groupe09/blob/main/docs/images/videos1.mp4)
 
 ---
