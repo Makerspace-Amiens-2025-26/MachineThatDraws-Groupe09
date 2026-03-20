@@ -2547,6 +2547,12 @@
 		(uuid "406f6645-e399-4caf-9242-ec9fffd6491c")
 	)
 	(junction
+		(at 154.94 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41da4ef4-9da4-4c2e-a205-8b72658f237f")
+	)
+	(junction
 		(at 29.21 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2563,6 +2569,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0e9d89a-366e-487a-ad93-248734388640")
+	)
+	(junction
+		(at 153.67 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c70c0cbc-354c-4b99-b1ed-9d0fb6785e49")
 	)
 	(junction
 		(at 38.1 110.49)
@@ -2602,6 +2614,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 83.82) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e8441d-07df-422e-92d8-f32c47006d75")
+	)
+	(wire
+		(pts
 			(xy 29.21 116.84) (xy 38.1 116.84)
 		)
 		(stroke
@@ -2619,6 +2641,16 @@
 			(type default)
 		)
 		(uuid "2616f46a-0535-4a37-a348-27c1c1f832cc")
+	)
+	(wire
+		(pts
+			(xy 156.21 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366f3fcc-ddfc-4a9f-975a-cc5d812f70e7")
 	)
 	(wire
 		(pts
@@ -2682,6 +2714,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 83.82) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa5cd6e-da9b-462a-87fd-c67bf484174b")
+	)
+	(wire
+		(pts
 			(xy 38.1 110.49) (xy 53.34 110.49)
 		)
 		(stroke
@@ -2702,6 +2744,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 143.51) (xy 156.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f648265-c279-4984-a487-fc5fb0081e0a")
+	)
+	(wire
+		(pts
 			(xy 166.37 121.92) (xy 163.83 121.92)
 		)
 		(stroke
@@ -2719,6 +2771,16 @@
 			(type default)
 		)
 		(uuid "892c167b-1262-48be-a0ca-87e03a6e1c25")
+	)
+	(wire
+		(pts
+			(xy 151.13 142.24) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2578c5-9131-4bc6-98ef-5d502107a654")
 	)
 	(wire
 		(pts
@@ -2749,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "a25afa34-1036-4de9-b36a-3006b6fe0a14")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac885fd3-5805-4578-bf8c-f59855428269")
 	)
 	(wire
 		(pts
@@ -2792,6 +2864,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 82.55) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fded52-03ad-4841-bad7-f0b123763bb6")
+	)
+	(wire
+		(pts
 			(xy 167.64 59.69) (xy 165.1 59.69)
 		)
 		(stroke
@@ -2799,6 +2881,16 @@
 			(type default)
 		)
 		(uuid "e7233936-c1c9-4041-a316-59ba7166d0bc")
+	)
+	(wire
+		(pts
+			(xy 151.13 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fd9632-8682-4235-93dc-e0866b6bbe6a")
 	)
 	(global_label "SCL"
 		(shape input)
@@ -4728,7 +4820,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 142.24 0)
+		(at 153.67 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4736,7 +4828,7 @@
 		(dnp no)
 		(uuid "9e4f5fd5-ee8d-4ddc-9154-82a2264eb734")
 		(property "Reference" "#PWR019"
-			(at 156.21 148.59 0)
+			(at 153.67 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 146.05 0)
+			(at 151.13 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 142.24 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 142.24 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 142.24 0)
+			(at 153.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,6 +5301,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd619b23-acb6-452b-94ac-d8a7a4017e04")
+		(property "Reference" "#PWR024"
+			(at 234.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb331906-8d6f-45ed-9564-57e05b1d6e7a")
+		)
+		(instances
+			(project "PCB-MachineThatDraws"
+				(path "/d1309c4d-f5c5-4ae1-9a0a-1ebc6300afdd"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 157.48 36.83 0)
 		(unit 1)
@@ -5411,7 +5568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 82.55 0)
+		(at 154.94 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5419,7 +5576,7 @@
 		(dnp no)
 		(uuid "dcbd1b03-4abf-4ebe-98bf-0a5c04eebc44")
 		(property "Reference" "#PWR09"
-			(at 157.48 88.9 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 86.36 0)
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 82.55 0)
+			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 82.55 0)
+			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 82.55 0)
+			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
