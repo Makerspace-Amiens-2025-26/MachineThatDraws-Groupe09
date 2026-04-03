@@ -8439,8 +8439,8 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "d52ba323-d0eb-47ae-960b-fce72095574d")
+		(layer "Edge.Cuts")
+		(uuid "86079967-0e1b-4cf6-81b4-1d0172b7e4c5")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -8456,7 +8456,7 @@
 		)
 		(placement
 			(enabled no)
-			(sheetname "/")
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -8464,7 +8464,7 @@
 		)
 		(polygon
 			(pts
-				(xy 162 42.5) (xy 222 42.5) (xy 222 103) (xy 162 103)
+				(xy 222 42.5) (xy 222 103) (xy 162 103) (xy 162 42.5)
 			)
 		)
 	)
