@@ -8668,53 +8668,33 @@
 	)
 	(gr_line
 		(start 149 34.5)
-		(end 149 99.5)
+		(end 149 117.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8ee0099f-fb0c-429a-88cc-3b51353e91e5")
+		(uuid "70eb557f-ce71-4d07-93f9-236c526e52bf")
 	)
 	(gr_line
-		(start 135 99.5)
-		(end 100.5 99.5)
+		(start 149 117.5)
+		(end 96.5 117.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "99248dc3-34e9-40bb-a58c-20c6f5991d4b")
+		(uuid "aaa201ef-ff9c-40c3-85bc-1ebdf7acfa72")
 	)
 	(gr_line
-		(start 96.5 99.5)
+		(start 96.5 117.5)
 		(end 96.5 34.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b022cea8-70dc-451d-a298-38853c5cbc52")
-	)
-	(gr_line
-		(start 149 99.5)
-		(end 135 99.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e00c2744-b6a5-4543-a1d9-991b1814e72b")
-	)
-	(gr_line
-		(start 100.5 99.5)
-		(end 96.5 99.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ea51df90-9d9e-41df-9a95-e6ac086eee5a")
+		(uuid "cd26945d-8a91-4ff7-aaf2-ba90e2d3ddfb")
 	)
 	(segment
 		(start 114.62 72.55)
@@ -9632,7 +9612,7 @@
 		(net 0)
 		(net_name "")
 		(layer "Edge.Cuts")
-		(uuid "5e4b88e3-015b-4834-9139-fd15ce36ff18")
+		(uuid "745577db-0ea4-46c0-bcef-dd0c76e9cbc0")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -9656,8 +9636,7 @@
 		)
 		(polygon
 			(pts
-				(xy 96.5 34.5) (xy 149 34.5) (xy 149 99.5) (xy 135 99.5) (xy 133.5 99.5) (xy 102 99.5) (xy 100.5 99.5)
-				(xy 96.5 99.5)
+				(xy 149 34.5) (xy 96.5 34.5) (xy 96.5 117.5) (xy 149 117.5)
 			)
 		)
 	)

@@ -4968,7 +4968,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 41.91) (xy 168.91 45.72)
+			(xy 168.91 40.64) (xy 168.91 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +6635,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 168.91 41.91 0)
+		(at 168.91 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6644,7 +6644,7 @@
 		(fields_autoplaced yes)
 		(uuid "533417c1-c5e7-4301-badf-33bf849bbe22")
 		(property "Reference" "#PWR026"
-			(at 168.91 45.72 0)
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6653,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 168.91 36.83 0)
+			(at 168.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 41.91 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 41.91 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 168.91 41.91 0)
+			(at 168.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Card:SD_Card_Device_16mm_SlotDepth"
+		(property "Footprint" "makerspace-unilasalle:SD_Hirose_DM1AA_SF_PEJ82"
 			(at 255.27 59.69 0)
 			(effects
 				(font
