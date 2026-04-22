@@ -24,7 +24,7 @@ Nous nous sommes partagés les tâches:
 - Code: Etienne, Ambre
 - Site MarkeDown: Etienne, Ambre
 
- Bien évidement tout le monde a fait un peu de tout, les noms cités sont ceux qui ont majoritairement. 
+ Bien évidement tout le monde a fait un peu de tout, les noms cités sont ceux qui ont majoritairement participé à ces domaines. 
 
 
 # Cahier des Charges
