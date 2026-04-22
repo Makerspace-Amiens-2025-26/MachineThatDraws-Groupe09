@@ -17,9 +17,11 @@ Après la préparation des matériaux, l'étape suivante est l'assemblage.
 
 ## Vérifications à Effectuer
 
-- Assurez-vous que toutes les pièces sont correctement alignées.
-- Vérifiez la stabilité et la solidité de l'assemblage.
+- Il faut bien regardé si les courroies sont bien tendu et droite, c'est le plus importants
+- Il faut vérifiez la stabilité et la solidité de l'assemblage.
+-  
 
 ## Problèmes Communs et Solutions
 
-- Si des pièces ne s'emboîtent pas correctement, vérifiez leur alignement et leur dimension
+- Courroie pas droite, on a donc modifier les pièces de maintien de courroie, et hauteurs de plusieurs pièces
+- 
