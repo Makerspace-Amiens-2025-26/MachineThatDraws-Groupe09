@@ -16,6 +16,16 @@ Lors de notre deuxième année de cycle ingénieur (FISE), nous nous sommes inve
 L'objectif est simple, on veut que la machine soit capable de reproduire le dessin qu'on a choisi. C'est un travail complet, puisqu'il va falloir à la fois assembler la mécanique et développer tout le programme pour réussir.
 
 
+## Distribution des tâches
+
+Nous nous sommes partagés les tâches:
+- Assemblage: Chams-Eddin, Etienne, Ilan, Abel
+- Modélisation: Abel, Chams-Eddin, Ilan, Ambre
+- Code: Etienne, Ambre
+- Site MarkeDown: Etienne, Ambre
+
+ Bien évidement tout le monde a fait un peu de tout, les noms cités sont ceux qui ont majoritairement. 
+
 
 # Cahier des Charges
 
